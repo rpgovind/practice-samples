@@ -1,5 +1,9 @@
 'use strict';
-
+/**
+ * Timecomplexity o(n+m) or o(n)
+ * @param {*} noteText 
+ * @param {*} magazineTeext 
+ */
 function harmlessRansomNote(noteText, magazineTeext) {
     var notesArray = noteText.split(" ");
     var magazineArray = magazineTeext.split(" ");
