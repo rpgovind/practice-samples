@@ -59,3 +59,10 @@ console .log('..After take implementation....');
 for ( let e of  take( company.filter(emp=> emp.includes("J")),1)) {
     console.log(e);
 }
+
+let new_map = new Map ([ ['name' , 'John'], ['age', 35], ['weight',185]]);
+
+for ( let [key, val] of new_map){
+    console.log( key + ' -- '+ val);
+}
+console.log(new_map);
